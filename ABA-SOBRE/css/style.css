@@ -10,7 +10,7 @@ body {
 }
 
 #header-container {
-    margin-top: 13px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,58 +51,25 @@ body {
     color: #c70039;
 }
 
+#cadastro {
+    border: 1px solid #c70039;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+#cadastro:hover {
+    border: 1px solid #ddd; 
+    padding: 15px 20px;
+}
+
+/* main */
+
 main {
-    padding-top: 20px;
-    display: flex;
-}
-
-h1 {
-    font-size: 41px;
-    color: #c70039;
-}
-
-p {
-    font-size: 35px;
     color: #ddd;
-    margin-bottom: 40px;
 }
 
-input {
-    font-family: Helvetica;
-    background-color: #ddd;
-    display: block  ;
-    margin-top: 16px;
-    height: 34px;
-    width: 500px;
-    border-style: none;
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 18px;
-}
-
-#enviar {
-    color: #ddd;
-    background-color: #c70039;
-    font-weight: bold;
-    font-size: 19px;
-    text-align: center;
-    height: 60px;
-    width: 200px;
-    margin-left: 28%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#enviar:hover {
-    width: 250px;
-    margin-left: 23%;
-}
-
-img {
-    height: 590px;
-    width: auto;
-    margin-left: 80px;
-}
+/* Rodapé */
 
 footer {
     border-top: 1px solid #625d5d;
@@ -114,12 +81,12 @@ footer {
     text-align: center;
 }
  #copy h3 {
-    font-size: 32px;    
+    margin-bottom: 10px;
+    font-size: 30px;    
 }
 
 #copy a {
     font-weight: bold;
     text-decoration: none;
     color: #c70039;
-    font-size: 14px;
 }
