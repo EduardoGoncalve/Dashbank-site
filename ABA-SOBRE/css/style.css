@@ -69,6 +69,115 @@ main {
     color: #ddd;
 }
 
+#container {
+    padding: 20px;
+}
+
+#quem-somos {
+    text-align: center;
+}
+
+#quem-somos h1 {
+    color: #c70039;
+    font-size: 50px;
+}
+
+#quem-somos p {
+    margin-top: 10px    ;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards {
+    gap: 38px;
+    margin-top: 27px;
+    display: flex;
+    text-align: center;
+}
+
+#fundada,
+#proposito,
+#mais {
+    background-color: #625d5d;
+    border-radius: 20px;
+    padding: 10px;
+    height: 220px;
+}
+
+.cards h2 {
+    font-size: 30px;
+    margin: 8px 0 10px;
+    color: #000000;
+}
+
+.cards p {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0 5px;
+}
+
+.cards img {
+    height: 52px;
+    width: 52px;
+}
+
+#fundador {
+    justify-content: space-between;
+    display: flex;
+    height: 160px;
+    margin-top: 30px;
+    background-color: #625d5d;
+    padding: 30px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#texto-sobre-fundador {
+    width: 500px;
+}
+
+#texto-sobre-fundador h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#texto-sobre-fundador p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.imagem-fundador {
+    height: 190px;
+    width: 170px;
+    border-radius: 30px;
+    text-align: center;
+    background: #ddd;
+    margin-right: 100px;
+}
+
+#foto-perfil {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-fundador {
+    text-align: center;
+}
+
+.footer-fundador a  img{
+    height: 30px;
+    width: 30px;
+}
+
 /* Rodapé */
 
 footer {

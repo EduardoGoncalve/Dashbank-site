@@ -51,6 +51,18 @@ body {
     color: #c70039;
 }
 
+#login-button {
+    border: 1px solid #c70039;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+#login-button:hover {
+    border: 1px solid #ddd; 
+    padding: 15px 16px 15px 14px;
+}
+
 main {
     padding-top: 20px;
     display: flex;
